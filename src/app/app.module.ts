@@ -11,6 +11,7 @@ import { ChartsModule } from 'ng2-charts';
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 import { PieComponent } from './pie/pie.component';
 import { BarComponent } from './bar/bar.component';
+import { RadarComponent } from './radar/radar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { BarComponent } from './bar/bar.component';
     LineGraghComponent,
     DoughnutChartComponent,
     PieComponent,
-    BarComponent
+    BarComponent,
+    RadarComponent
   ],
   imports: [
     BrowserModule,
