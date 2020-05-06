@@ -8,11 +8,13 @@ import { HeaderComponent } from './header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { LineGraghComponent } from './line-gragh/line-gragh.component';
 import { ChartsModule } from 'ng2-charts';
+import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    LineGraghComponent
+    LineGraghComponent,
+    DoughnutChartComponent
   ],
   imports: [
     BrowserModule,

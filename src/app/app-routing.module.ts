@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LineGraghComponent } from './line-gragh/line-gragh.component';
+import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,10 @@ const routes: Routes = [
   {
     path: 'line',
     component: LineGraghComponent
+  },
+  {
+    path: 'doughnut',
+    component: DoughnutChartComponent
   },
 ];
 
