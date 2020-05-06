@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LineGraghComponent } from './line-gragh/line-gragh.component';
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 import { PieComponent } from './pie/pie.component';
+import { BarComponent } from './bar/bar.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'pie',
     component: PieComponent
+  },
+  {
+    path: 'bar',
+    component: BarComponent
   },
 ];
 
