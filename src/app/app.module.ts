@@ -9,12 +9,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { LineGraghComponent } from './line-gragh/line-gragh.component';
 import { ChartsModule } from 'ng2-charts';
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
+import { PieComponent } from './pie/pie.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LineGraghComponent,
-    DoughnutChartComponent
+    DoughnutChartComponent,
+    PieComponent
   ],
   imports: [
     BrowserModule,
